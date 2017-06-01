@@ -14,12 +14,12 @@
         <div class="daohang1 clr">
             <ul id="topMenu">
                 <li class="menuon" ><a href="/" >首页</a></li>
-                <li ><a href="/index.php?g=Home&m=Index&a=fc">功能介绍</a></li>
+                <li ><a href="#">功能介绍</a></li>
                 <li ><a href="/site/about">关于我们</a></li>
-                <li ><a href="/index.php?g=Home&m=Index&a=price">资费说明</a></li>
-                <li ><a href="/index.php?g=Home&m=Index&a=common">产品案例</a></li>
+                <li ><a href="#">资费说明</a></li>
+                <li ><a href="#">产品案例</a></li>
                 <li ><a href="/home">管理中心</a></li> 
-                <li ><a href="/index.php?g=Home&m=Index&a=help">帮助中心</a></li>
+                <li ><a href="/site/help">帮助中心</a></li>
             </ul>
         </div>
     </div>

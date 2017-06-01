@@ -31,4 +31,11 @@ class SiteController extends Controller
     public function actionAbout(){
         return $this->renderPartial('about');
     }
+    
+    /**
+     * 帮助
+     */
+    public function actionHelp(){
+        return $this->renderPartial('help');
+    }
 }
