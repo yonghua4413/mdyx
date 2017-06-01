@@ -24,4 +24,11 @@ class SiteController extends Controller
     {
         return $this->renderPartial('login');
     }
+    
+    /**
+     * 关于我们
+     */
+    public function actionAbout(){
+        return $this->renderPartial('about');
+    }
 }

@@ -81,7 +81,7 @@
                     	<p class="denglu clr">注册</p>
                     	<div class="name clr">
                         	<span>用户名</span> 
-                            <input class="text" required="" value="请输入用户名" onclick="if(this.value=='请输入用户名'){this.value=''}" onblur="if(this.value==''){this.value='请输入用户名'}" type="text" name="username">
+                            <input class="text" required="" onclick="if(this.value=='请输入用户名'){this.value=''}" onblur="if(this.value==''){this.value='请输入用户名'}" type="text" name="username">
                         </div><br />
                         <div class="password clr">
                         	<span>密码</span> 
