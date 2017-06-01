@@ -10,7 +10,7 @@
     </div>
 
     <div class="xia clr">
-        <div class="logo clr" style="height:60px"><a href="/"><img src="/images/logo-pigcms.png" /></a></div>
+        <div class="logo clr" style="height:60px"><a href="/"><img src="/images/logo-pigcms_1.png" /></a></div>
         <div class="daohang1 clr">
             <ul id="topMenu">
                 <li class="menuon" ><a href="/" >首页</a></li>
