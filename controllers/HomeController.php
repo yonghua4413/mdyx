@@ -17,5 +17,14 @@ class HomeController extends Controller
     {
         return $this->renderPartial('index');
     }
+    
+    /**
+     * 添加公众号
+     * @return string
+     */
+    public function actionAdd_oa()
+    {
+        return $this->renderPartial('add_oa');
+    }
 
 }

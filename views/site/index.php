@@ -92,59 +92,39 @@ function hideNotice() {
     </head>
 
     <body>
-<!--startof header-->
+    <!--startof header-->
     <link href="css/public.css" rel="stylesheet" type="text/css" />
-<link href="css/index2.css" rel="stylesheet" type="text/css" />
-<!--<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>-->
-<script src="js/jquery1.js" type="text/javascript"></script>
-<script src="js/daohang.js" type="text/javascript"></script>
-
-<script src="js/jquery-1.7.2.min.js"></script>
-<script src="js/ss.js"></script>
-<link href="css/gongneng.css" rel="stylesheet" type="text/css" />
-<script src="js/gongnneg.js" type="text/javascript"></script>
-<link href="css/gongneng.css" rel="stylesheet" type="text/css" />
-<link href="css/help.css" rel="stylesheet" type="text/css" />
-<link href="css/zifei.css" rel="stylesheet" type="text/css" />
-        <link href="css/case.css" rel="stylesheet" type="text/css" />
-        <link href="css/about us.css" rel="stylesheet" type="text/css" />
-<!--startof header-->
-<div class="header clr">
-    <div class="biaotilan clr">
-        <div class="shang clr">
-            <div class="zhongJian clr">
-                <div class="zLeft clr">欢迎使用微信后台!</div>
-                <div class="zRight clr">
-                    <span class="ones clr"><a href="/index.php?m=Index&a=login">注册</a></span>
-                        <span class="twos clr"><a href="/index.php?m=Index&a=login">登录</a></span>
-                       
-                </div>
-            </div>
-        </div>
+    <link href="css/index2.css" rel="stylesheet" type="text/css" />
+    <!--<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>-->
+    <script src="js/jquery1.js" type="text/javascript"></script>
+    <script src="js/daohang.js" type="text/javascript"></script>
     
-        <div class="xia clr">
-            <div class="logo clr" style="height:60px"><a href="/"><img src="images/logo-pigcms.png" /></a></div>
-            <div class="daohang1 clr">
-            <ul id="topMenu">
-                <li class="menuon" ><a href="/" >首页</a></li>
-                                <li ><a href="/index.php?g=Home&m=Index&a=fc">功能介绍</a></li>                                    <li ><a href="/index.php?g=Home&m=Index&a=about">关于我们</a></li>                                    <li ><a href="/index.php?g=Home&m=Index&a=price">资费说明</a></li>                                    <li ><a href="/index.php?g=Home&m=Index&a=common">产品案例</a></li>                                    <li ><a href="/index.php?g=User&m=Index&a=index">管理中心</a></li> 
-                                    <li ><a href="/index.php?g=Home&m=Index&a=help">帮助中心</a></li>            </ul>
-            </div>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/ss.js"></script>
+    <link href="css/gongneng.css" rel="stylesheet" type="text/css" />
+    <script src="js/gongnneg.js" type="text/javascript"></script>
+    <link href="css/gongneng.css" rel="stylesheet" type="text/css" />
+    <link href="css/help.css" rel="stylesheet" type="text/css" />
+    <link href="css/zifei.css" rel="stylesheet" type="text/css" />
+    <link href="css/case.css" rel="stylesheet" type="text/css" />
+    <link href="css/about us.css" rel="stylesheet" type="text/css" />
+    <!--startof header-->
+<div class="header clr">
+    
+    <!-- 头部 -->
+    <?php echo $this->render('/common/top');?>
+
+    <div id="bg"></div>
+    <div class="cc_show" style="width: 1000px;height: 600px;margin: 0 auto;display: none;">
+        <div id="show">
+            <img src="images/noticereg.png" usemap="#noticeReg" style="float:right" />
+    
+            <map name="noticeReg">
+                <area shape="rectangle" coords="102,0,245,30" href="/index.php?m=Index&a=login" title="登陆/注册">
+                <area shape="rectangle" coords="87,502,272,574" value="Close" onclick="hideNotice();" href="#" title="关闭提示">
+            </map>
         </div>
     </div>
-
-
-<div id="bg"></div>
-<div class="cc_show" style="width: 1000px;height: 600px;margin: 0 auto;display: none;">
-    <div id="show">
-        <img src="images/noticereg.png" usemap="#noticeReg" style="float:right" />
-
-        <map name="noticeReg">
-            <area shape="rectangle" coords="102,0,245,30" href="/index.php?m=Index&a=login" title="登陆/注册">
-            <area shape="rectangle" coords="87,502,272,574" value="Close" onclick="hideNotice();" href="#" title="关闭提示">
-        </map>
-    </div>
-</div>
 
             <!--banner-->
             <div class="banner" id="banner" >
@@ -484,61 +464,14 @@ function hideNotice() {
 
         <!--分布引导结束-->
         <!--悬浮框-->
-            <div id="leftsead">
-                <ul>
-                    <li>
-                            <a href="javascript:void(0)" class="youhui">
-                                <img src="images/l02.png" width="47" height="49" class="shows" />
-                                <img src="images/a.png" width="57" height="49" class="hides"/>
-                                <img src="images/thumb_5684f639032ad.png" width="145" class="2wm" style="display:none;margin:-100px 57px 0 0"/>
-                                <map name="taklhtml"><area shape="rect" coords="26,273,115,300 " href="#" /></map>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes" target="_blank">
-                                <div class="hides" style="width:161px;display:none;" id="qq">
-                                    <div class="hides" id="p1">
-                                        <img src="images/ll04.png">
-                                    </div>
-                                    <div class="hides" id="p2">
-                                            <span style="color:#FFF;font-size:13px">xxxxxxxxxxx</span>
-                                        </div>
-                                                                    </div>
-                                <img src="images/l04.png" width="47" height="49" class="shows" />
-                            </a>
-                        </li>
-                        <li id="tel">
-                            <a href="javascript:void(0)">
-                                <div class="hides" style="width:161px;display:none" id="tels"/>
-                                    <div class="hides" id="p1">
-                                        <img src="images/ll05.png">
-                                    </div>
-                                    <div class="hides" id="p3">
-                                            <span style="color:#FFF;font-size:12px">xxxxxxxxxxx</span>
-                                        </div>
-                                                                    </div>
-                                <img src="images/l05.png" width="47" height="49" class="shows" />
-                            </a>
-                        </li>
-                                        <li id="btn">
-                        <a id="top_btn">
-                        <div class="hides" style="width:161px;display:none"><img src="images/ll06.png" width="161" height="49" /></div>
-                        <img src="images/l06.png" width="47" height="49" class="shows" />
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        	<!--leftsead end-->
+        <!--左侧功能菜单-->
+        <?php echo $this->render('/common/right')?>  
+        <!--leftsead end-->
         </div>
-        <!--startof footer-->
-        <div class="footer clr" style="padding-bottom:10px;padding-top:10px;position:fixed;bottom:0;z-index:3;">
-        	<div class="last clr">
-				<!--<P style="padding-bottom: 0px;">© 2017 mdyx.com   粤ICP备10085786号-4</P>-->
-				 <P style="padding-bottom: 0px;">苗都印象科技有限公司© 2016 mdyx.com <a href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备10085786号-4</a><p>
-            	            	
-            </div>
-        </div>
-    <script type="text/javascript">
+        <!--底部版权-->
+        <?php echo $this->render('/common/footer');?>
+        
+        <script type="text/javascript">
         //功能更新
         $(".tuPian").mouseover(function(){
           $(this).children().children(".tubiao").hide();
